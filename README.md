@@ -1,7 +1,5 @@
-# Vue 2.7 + TypeScript + Vite
+# HTML + TypeScript + Vite
 
-- [x] **pinia**
-- [x] **vue-router@3**
 - [x] **pnpm**
 - [x] **less**
 - [x] **stylelint**
