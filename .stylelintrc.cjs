@@ -6,12 +6,22 @@ module.exports = {
     'stylelint-config-html'
   ],
   defaultSeverity: 'warning',
-  plugins: ['stylelint-order'],
+  plugins: [
+    'stylelint-less',
+    'stylelint-scss',
+    'stylelint-order',
+  ],
   rules: {},
   overrides: [
     {
       files: ['*.less', '**/*.less'],
       customSyntax: 'postcss-less',
+      rules: {}
+    },
+    {
+      files: ['*.scss', '**/*.scss'],
+      customSyntax: 'postcss-scss',
+      rules: {}
     }
-  ]
+  ],
 }
