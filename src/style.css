@@ -1,16 +1,17 @@
 :root {
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light dark;
+  text-size-adjust: 100%;
+  font-synthesis: none;
+  text-rendering: optimizelegibility;
   color: rgb(255 255 255 / 87%);
   font-weight: 400;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   background-color: #242424;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color-scheme: light dark;
-  text-size-adjust: 100%;
-  font-synthesis: none;
-  text-rendering: optimizelegibility;
 }
+
 
 a {
   color: #646cff;
